@@ -1,27 +1,43 @@
-# LucasHerculanoAmaro
+# Portfólio de Lucas Herculano Amaro
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.10.
+Este é meu portfólio desenvolvido com **Angular 18**, hospedado no **GitHub Pages**, onde compartilho minha trajetória como desenvolvedor e analista de sistemas.
 
-## Development server
+A proposta deste projeto é apresentar, de forma organizada e interativa, minhas experiências acadêmicas e profissionais, além dos principais projetos que desenvolvi ao longo da minha jornada.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🔗 Acesse o Portfólio
 
-## Code scaffolding
+Você pode visualizar o portfólio em produção através do link abaixo:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+🔗 [https://lucasherculanoamaro.github.io](https://lucasherculanoamaro.github.io)
 
-## Build
+## 🧭 Estrutura de Navegação
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+O portfólio é dividido em quatro seções principais:
 
-## Running unit tests
+- **Início**: Apresentação pessoal e objetivo do portfólio  
+- **Estudos**: Formação acadêmica e cursos complementares  
+- **Profissional**: Experiências profissionais, responsabilidades e tecnologias aplicadas  
+- **Projetos**: Principais projetos desenvolvidos, com detalhes técnicos e impacto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🛠️ Tecnologias Utilizadas
 
-## Running end-to-end tests
+- [Angular 18](https://angular.io/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [HTML5 e CSS3](https://developer.mozilla.org/)
+- [GitHub Pages](https://pages.github.com/)
+- [Figma](https://www.figma.com/) – Prototipação de interfaces
+- [Visual Studio Code](https://code.visualstudio.com/) – IDE utilizada
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 📦 Como executar localmente
 
-## Further help
+Para clonar e rodar este projeto na sua máquina local:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+    1º git clone https://github.com/LucasHerculanoAmaro/lucasherculanoamaro.github.io.git
+    2º cd lucasherculanoamaro.github.io
+    3º npm install
+    4º ng serve
+
+## 📃 Licença
+
+Este projeto está licenciado sob os termos da [Licença MIT](LICENSE).
