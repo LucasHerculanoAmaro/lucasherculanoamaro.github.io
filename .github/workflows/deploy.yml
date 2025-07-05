@@ -3,20 +3,20 @@ name: Deploy Angular para GitHub Pages
 on:
   push:
     branches:
-      - main  # ou 'master' se for o seu caso
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Clonar o repositório
+      - name: Clonar repositório
         uses: actions/checkout@v3
 
       - name: Instalar Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'  # ou versão compatível com seu Angular
+          node-version: '18'
 
       - name: Instalar dependências
         run: npm install
@@ -24,11 +24,14 @@ jobs:
       - name: Instalar Angular CLI
         run: npm install -g @angular/cli
 
-      - name: Build do projeto
-        run: npm run build -- --base-href=/
+      - name: Build do projeto Angular
+        run: ng build --base-href=/
 
-      - name: Deploy para GitHub Pages
+      - name: Criar arquivo .nojekyll
+        run: echo "" > dist/.nojekyll
+
+      - name: Deploy no GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist.nojekyll
+          publish_dir: ./dist
