@@ -25,7 +25,7 @@ jobs:
         run: npm install -g @angular/cli
 
       - name: Build do projeto Angular
-        run: ng build --base-href=/
+        run: ng build --base-href=/lucasherculanoamaro.github.io/
 
       - name: Criar arquivo .nojekyll
         run: echo "" > dist/.nojekyll
